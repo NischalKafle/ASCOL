@@ -5,6 +5,9 @@ import Card from "./Card";
 import Home from "./Home";
 import Footer from "./Footer";
 import Exec from "./Exec";
+import Director from "./Director";
+import Sup1 from "./Sup1";
+import FooterNew from "./FooterNew"
 import { Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -21,11 +24,20 @@ function App() {
           }
         />
         <Route
+          path="About"
+          element={
+            <>
+              <Navbars />
+            </>
+          }
+        />
+        <Route
           path="Services"
           element={
             <>
               <Navbars />
               <Card />
+              <Footer />
             </>
           }
         />
@@ -35,6 +47,8 @@ function App() {
             element={
               <>
                 <Navbars />
+                <Director />
+                <Footer/>
               </>
             }
           />
@@ -44,7 +58,7 @@ function App() {
               <>
                 <Navbars />
                 <Exec />
-                <Footer />
+                <Footer/>
               </>
             }
           />
@@ -52,7 +66,13 @@ function App() {
             path="Support Staff"
             element={
               <>
+              <div>
                 <Navbars />
+                <Sup1 />
+               
+              
+              </div>
+                <FooterNew/>
               </>
             }
           />

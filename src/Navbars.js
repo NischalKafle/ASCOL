@@ -31,7 +31,7 @@ function Navbars() {
             <NavLink to="/About" activeClassName="active" className="nav-link" >About</NavLink>
           </li>
           <li className="nav-item dropdown">
-          <NavLink activeClassName="active "  className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <NavLink exact to="/Our Team" activeClassName="active "  className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Our Team
           </NavLink>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">

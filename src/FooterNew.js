@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Footer() {
+function FooterNew() {
   return (
-    <footer id="main-footer" className='footer '>
+    <footer id="main-footer" className='footer-new '>
   <p>Hotel <br/> 
       All Rights Reserved.</p>
 </footer>
@@ -10,4 +10,4 @@ function Footer() {
   )
 }
 
-export default Footer
+export default FooterNew
