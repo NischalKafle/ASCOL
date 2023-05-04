@@ -7,7 +7,8 @@ import Footer from "./Footer";
 import Exec from "./Exec";
 import Director from "./Director";
 import Sup1 from "./Sup1";
-import FooterNew from "./FooterNew"
+import FooterNew from "./FooterNew";
+import About from "./About";
 import { Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           element={
             <>
               <Navbars />
+              <About/>
             </>
           }
         />
