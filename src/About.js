@@ -1,13 +1,13 @@
 
 import React from 'react'
-
+import Footer from './Footer'
 function About() {
   return (
     <>
     <section id="about-info" className="bg-light py-3">
     <div className="container">
         <div className="info-left">
-            <h1 className="l-heading"><span class="text-primary">About</span> Hotel XYZ</h1>
+            <h1 className="l-heading"><span class="text-primary"> About&nbsp; </span>Hotel XYZ</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto doloribus vitae qui earum sed
                 quae, neque eum quia repellendus consequuntur! Fugiat, accusamus repudiandae porro dicta veritatis
                 ducimus ab rem culpa?</p>
@@ -40,6 +40,7 @@ function About() {
         </div>
     </div>
     </section>
+    <Footer/>
     </>
     
   )
