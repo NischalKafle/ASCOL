@@ -68,13 +68,11 @@ function App() {
             path="Support Staff"
             element={
               <>
-              <div>
+             
                 <Navbars />
                 <Sup1 />
-               
-              
-              </div>
-                <FooterNew/>
+                
+                <Footer/>
               </>
             }
           />

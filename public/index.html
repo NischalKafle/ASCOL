@@ -99,7 +99,7 @@ h1{
 
 }
 #support-staff{
- 
+  border:2px solid black;
   object-fit:cover;
 }
 #main-support{
@@ -107,6 +107,7 @@ h1{
   display: flex; 
   justify-content: space-between; 
  height:250px;
+ 
 }
 #new-font{
   font-size: 25px;
@@ -192,18 +193,32 @@ height:75px;
   width: 50%;
   min-height: 100%;
 }
-
+#bott{
+  margin-bottom: 10px;
+}
 #about-info .info-right img {
   display: block;
   margin: auto;
   width: 70%;
   border-radius: 50%;
 }
+#border1{
+  border:2px solid grey;
+  margin-top: 3px;
 
+}
 #about-info .info-left {
   float: left;
   width: 50%;
   min-height: 100%;
+}
+@media screen and (max-width:768px){
+  #main-support{
+    display: flex;
+    flex-direction: column;
+
+  }
+
 }
 </style>
   </head>
